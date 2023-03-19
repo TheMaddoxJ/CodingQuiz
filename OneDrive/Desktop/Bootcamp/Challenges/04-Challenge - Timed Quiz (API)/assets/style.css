@@ -6,7 +6,7 @@
     font-family: monospace;
 
     /*border is just for visual aid while creating */
-    border: 1px solid red; 
+    /*border: 1px solid red; */
 }
 
 body {
@@ -39,7 +39,7 @@ button {
     background-color: black;
     font-size: x-large;
     color: white;
-    padding: 4px;
+    padding: 11px; /* padding was 4px */
     margin: 6px;
 }
 
@@ -82,3 +82,23 @@ margin-bottom: 40vh;
 
 
 /*        MAIN CONTENT STYLING         */
+main {
+    display: block;
+    background-color: #8BCACA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 210%;
+    color: black;
+}
+
+
+
+
+
+/*      QUESTION SCREEN               */
+.question-screen {
+
+}
