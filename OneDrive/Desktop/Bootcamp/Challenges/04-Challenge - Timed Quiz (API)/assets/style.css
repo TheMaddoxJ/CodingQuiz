@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* global default font */
+    font-family: monospace;
+
+    /*border is just for visual aid while creating */
+    border: 1px solid red; 
+}
+
+body {
+    background-color: #F39AB6;
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-size: 2em;
+}
+
+
+
+/*        OUTER CONTAINER STYLING       */
+
+.outer-countainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+
+/*        TOP BAR SYLING               */
+
+button {
+    outline: none;
+    background-color: black;
+    font-size: x-large;
+    color: white;
+    padding: 4px;
+    margin: 6px;
+}
+
+.top-bar p {
+    background-color: black;
+    color: white;
+    float: right;
+    margin: 6px;
+    
+}
+
+
+/*        INNER CONTAINER STYLING      */
+
+.inner-container {
+    background-color: #8BCACA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/*        HEADER/QUIZ START STYLING    */
+.quiz-start {
+margin-bottom: 40vh;
+}
+
+.quiz-start h1, p {
+    text-align: center;
+    font-size: 210%;
+    color: black;
+}
+
+.quiz-start, .start-button {
+    text-align: center;
+}
+
+
+
+/*        MAIN CONTENT STYLING         */
