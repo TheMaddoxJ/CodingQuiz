@@ -1,13 +1,30 @@
+//                 Timer                        //
+
 var timerEl = document.querySelector(".timer");
 
-var timeLeft = 75;
+var timerCount = 60;
+var timer;
 
 function setTime() {
-    var timerInterval = setInterval(function() {
-        secondsLeft--;
-    }
+        timer = setInterval(function() {
+        timerCount--; 
+        timerEl.textContent = timerCount
+        console.log(timerEl);
+    }, 1000);
 }
+setTime()
 
-if (secondsLeft === 0) {
-    clearInterval(timerInterval);
+
+//             Scoring                        //
+
+var score = ' ';
+
+function result() {
+    score
+    if(document.getElementById('correct1').checked)
+    {
+        score++;
+    }
+
+    alert("Your score is:"+score);
 }
